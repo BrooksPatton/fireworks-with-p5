@@ -5,7 +5,7 @@ let numFinally;
 
 function setup() {
   createCanvas(1900, 1060);
-  numFireworks = 50;
+  numFireworks = 500000;
   interval = setInterval(() => {
     addFirework();
     numFireworks -= 1;
